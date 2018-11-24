@@ -7,5 +7,6 @@ app_name = 'portfolio'
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),
-    path('blog', include('blog.urls'))
+    path('blog', include('blog.urls')),
+    path('djrichtextfield/', include('djrichtextfield.urls'))
 ]
