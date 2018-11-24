@@ -1,0 +1,14 @@
+{% extends 'base_layout.html' %}
+
+{% block content %}
+<h1>Blog</h1>
+<div class="blogs">
+  {% for blog in blogs %}
+  <div class="blog">
+    <h2>{{ blog.title }}</h2>
+    <p>{{ blog.body }}</p>
+    <p>Created by {{ blog.author}} on {{ blog.date }}</p>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}
