@@ -4,4 +4,20 @@
   outline: 0;
   padding: 0;
   margin: 0;
+  color: #442C2E;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.wrapper h1 {
+  text-align: center;
+  background: #FEDBD0;
+  padding: 2px 0px 2px 0px;
+}
+
+.blog {
+  padding: 0px 10px 0px 10px;
 }
