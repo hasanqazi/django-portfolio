@@ -1,5 +1,18 @@
 {% extends 'base_layout.html' %}
 
 {% block content %}
-<h1>Home</h1>
+<div class='info'>
+  <p>
+    Hi, I'm <span>Hasan</span> Qazi. <br />
+    I create websites.  
+  </p>
+</div>
+<div class="tabs">
+  <ul>
+    <li><a href=>Projects</a></li>
+    <li><a href=>About Me</a></li>
+    <li><a href="{% url 'blog:showblog' %}">Blog</a></li>
+    <li><a href="{% url 'contact:contactform' %}">Contact</a></li>
+  </ul>
+</div>
 {% endblock %}
