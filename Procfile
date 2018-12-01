@@ -1,1 +1,1 @@
-web: gunicorn portfolio.wsgi
+web: gunicorn portfolio.wsgi python project/manage.py runserver 0.0.0.0:$PORT --noreload
