@@ -8,21 +8,24 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="{% static 'styles.css' %}">
   <title>Hasan Qazi</title>
 </head>
 
 <body>
-  <header></header>
-  <div class="wrapper">
-    <div class='title'>
-      <p class='name'>{% block title %}{% endblock %}</p>
+  <div class="container">
+    <div class="wrapper">
+      <div class='title'>
+        <p class='name'>{% block title %}{% endblock %}</p>
+      </div>
+      {% block content %}
+      {% endblock %}
     </div>
-    {% block content %}
-    {% endblock %}
+    <footer>test</footer>
   </div>
-  <footer>test</footer>
+  <script src="{% static 'text-effect.js' %}"></script>
 </body>
 
 </html>

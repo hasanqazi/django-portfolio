@@ -8,3 +8,49 @@
   padding: 0;
   margin: 0;
 }
+
+body {
+  background: linear-gradient(to right, #614385, #516395);
+}
+
+::selection {
+  background: #614385; 
+  color: white;
+}
+
+.tabs {
+  display: table;
+  margin: 0 auto;
+  padding: 20px 0px 20px 0px;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  padding: 10px;
+}
+
+.container {
+  background: white;
+  position: relative;
+  top: -22px; 
+}
+
+.info p {
+  padding: 20px;
+  font-size: 40px;
+}
+
+.info p span {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.info a {
+  text-decoration: none;
+}
+
+.info p a span {
+  font-weight: 400;
+  font-size: 30px;
+}
