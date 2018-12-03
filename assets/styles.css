@@ -21,7 +21,7 @@ body {
 .tabs {
   display: table;
   margin: 0 auto;
-  padding: 20px 0px 20px 0px;
+  padding: 20px 0px 130px 0px;
 }
 
 li {
@@ -31,14 +31,15 @@ li {
 }
 
 .container {
-  background: white;
+  background: rgb(245, 245, 245);
   position: relative;
   top: -22px; 
 }
 
 .info p {
-  padding: 20px;
+  padding: 45px;
   font-size: 40px;
+  height: 30vh;
 }
 
 .info p span {
@@ -53,4 +54,16 @@ li {
 .info p a span {
   font-weight: 400;
   font-size: 30px;
+}
+
+h3 {
+  font-weight: 400;
+  text-align: center;
+}
+
+.about {
+  padding: 40px 40px 40px 40px;
+  margin: 0px 40px 0px 40px;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 2px 0px;
 }
